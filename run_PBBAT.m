@@ -62,7 +62,7 @@ params.nweights  = [1];
 params.numLayers = length(params.indLayers);
 
 vl_setupnn();
-% vl_compilenn('enableGpu', true);
+vl_compilenn('enableGpu', true);
 
 % Debug and visualization 
 params.visualization = 1; 

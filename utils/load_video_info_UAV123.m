@@ -26,4 +26,4 @@ function seq = load_video_info_UAV123(video_name, video_path, ground_truth_path)
     img_files = dir(fullfile(img_path, '*.jpg'));
     img_files = {img_files.name};
     seq.s_frames_temp = cellstr(img_files);
-    seq.s_frames = seq.s_frames_temp(1, seq.st_frame : seq.en_frame);
+    seq.s_frames = seq.s_frames_temp(1, seq.st_frame - seq.st_frame + 1 : seq.en_frame - seq.st_frame + 1);
