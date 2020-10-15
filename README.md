@@ -6,6 +6,30 @@
 
 > Matlab implementation of *Part-Based Background-Aware Tracking for UAV  with Convolutional Features* (PBBAT-tracker).
 
+## Publication and Citation
+
+This paper has been published by IEEE Access.
+
+You can find this paper here: https://ieeexplore.ieee.org/document/8736485.
+
+Please cite this paper as:
+
+@ARTICLE{8736485,
+
+  author={C. {Fu} and Y. {Zhang} and Z. {Huang} and R. {Duan} and Z. {Xie}},
+  
+  journal={IEEE Access}, 
+  
+  title={Part-Based Background-Aware Tracking for UAV With Convolutional Features}, 
+  
+  year={2019},
+  
+  volume={7},
+  
+  number={},
+  
+  pages={79997-80010},}
+
 ## Instructions
 
 1. Download `imagenet-vgg-verydeep-19.mat` from [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in `./model`.
